@@ -25,19 +25,20 @@ h2 {
 }
 
 .img-wrapper {
+  background-color: #000;
   position: relative;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
   width: 100%; /* Ensure each image wrapper takes up full width of its grid column */
+  height: auto;
 }
 
 .gallery-img {
   width: 100%;
-  height: auto;
+  height: 80%;
   max-width: 100%;
   object-fit: cover; /* Crop the image */
-  object-position: center top; /* Adjust the position of the cropped area */
 }
 
 .overlay {
